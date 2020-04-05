@@ -23,7 +23,7 @@
           <p>This interactive charts the <b><i>new</i></b> {{selectedData.toLowerCase()}} of COVID-19 in the past week vs. the <b><i>total</i></b> {{selectedData.toLowerCase()}} to date. When plotted in this way, exponential growth is represented as a straight line that slopes upwards. Notice that almost all countries follow a very similar path of exponential growth. <i>We're all in this together.</i> <span v-if="isHidden"><a @click="toggleHide">Learn more.</a></span></p>
 
           <span v-if="!isHidden">
-			<img src="logos/covid-trends-logo.png" width="560" height="315">
+			<img src="logos/logo.png" width="400" height="250">
 
             <p><i><b>Note:</b> The x-axis of this graph is not time</i>, but is instead the total number of cases or deaths.</p>
 
@@ -38,7 +38,7 @@
           <h1><a href="https://github.com/skandtandon">COVIDGRAM</a></h1>
 
           <div v-if="!isHidden" id="logos">
-            <a href="https://github.com/skandtandon"><img src="logos/skand.jpg" height="40"></img></a>
+            <a href="https://github.com/skandtandon"><img src="logos/skand.jpg" height="150"></img></a>
           </div>
 
         </div>
